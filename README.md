@@ -23,7 +23,7 @@ This microservice will take in an input of lists in as a json and will trevarse 
 http://localhost:8000/docs
 
 # Improvement to this project:
-An improvement to this project would be to dockerize this application. Also, to make sure we have a scaleable solution we could modify the structure to make it return realtime output with redis streams. 
+An improvement to this project would be to dockerize this application. Also, to make sure we have a scaleable solution and load balancing requests to different publishers/consumers. We could also modify the structure and remove the wait of 1 second to make it return output in realtime with redis streams.  
 
 # Server without Redis streams (event messaging; pub/sub):
 ![Without Redis Streams](/imgs/withoutRedisStream.png)
