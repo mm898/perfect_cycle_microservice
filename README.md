@@ -10,9 +10,9 @@ This microservice will take in an input of lists in as a json and will trevarse 
 - redis-om 0.1.0
 
 # Run instructions:
-1. Rename the file "redisConfig copy.py" to "redisConfig.py"
-2. From Redis cloud create a database and get the following: host, port, and password
-3. Enter the information in the "redisConfig.py" and save
+1. Rename the file `redisConfig copy.py` to `redisConfig.py`
+2. From Redis cloud create a database and get the following: `host, port, and password`
+3. Enter the information in the `redisConfig.py` and save
 4. Run the unit tests with the following command: `python3 -m unittest test`
 5. Start the server using `uvicorn main:app --reload`
 6. In another terminal windwo, start the input consumer using `python3 consumer.py`
