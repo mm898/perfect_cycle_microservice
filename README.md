@@ -1,6 +1,8 @@
 # Introduction:
 This microservice will take in an input of lists in as a json and will trevarse through it with and decided if it is a perfect cycle or not. Please see the expected input (input.json) and output (output.json). In this project we're using Python, Fastapi, and Redis-Streams for publisher and subscriber model.
 
+![Post man image](/imgs/postman.png)
+
 # Required packages:
 - uvicorn 0.18.3
 - fastapi 0.85.1
